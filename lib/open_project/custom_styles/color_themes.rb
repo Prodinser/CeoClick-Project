@@ -33,11 +33,11 @@ module OpenProject::CustomStyles
       {
         name:                                                   'OpenProject',
         colors: {
-          'primary-color'                                        => "#1A67A3",
+          'primary-color'                                        => "#210089",
           'primary-color-dark'                                   => "#175A8E",
           'alternative-color'                                    => "#35C53F",
           'content-link-color'                                   => "#175A8E",
-          'header-bg-color'                                      => "#1A67A3",
+          'header-bg-color'                                      => "#210089",
           'header-item-bg-hover-color'                           => "#175A8E",
           'header-item-font-color'                               => "#FFFFFF",
           'header-item-font-hover-color'                         => "#FFFFFF",
@@ -54,7 +54,7 @@ module OpenProject::CustomStyles
       {
         name:                                                   'OpenProject Light',
         colors: {
-          'primary-color'                                        => "#1A67A3",
+          'primary-color'                                        => "#210089",
           'primary-color-dark'                                   => "#175A8E",
           'alternative-color'                                    => "#138E1B",
           'content-link-color'                                   => "#175A8E",

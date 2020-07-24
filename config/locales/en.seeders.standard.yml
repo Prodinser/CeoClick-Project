@@ -30,18 +30,18 @@ en:
     standard:
       demo_data:
         welcome:
-          title: "Welcome to OpenProject!"
+          title: "BIENVENIDOS A CEOECLICK PROJECT"
           text: |
-            Select one of the demo projects to get started with some demo data we have prepared for you.
+          Esta plataforma de Gestión de Proyectos alojada por Ceoclick Pro, hace parte de un conjunto de herramientas administrativas que permiten gestionar de forma eficiente todos los componentes de los proyectos.
 
-            * [Demo project](%{base_url}/projects/demo-project): to get an overview about classical project management.
-            * [Scrum project](%{base_url}/projects/your-scrum-project): to learn about Agile and Scrum project management.
-
-            Also, you can create a blank [new project](%{base_url}/projects/new).
-
-            Never stop collaborating. With open source and open mind.
-
-            You can change this welcome text [here](%{base_url}/settings).
+          Esta versión se encuentra adaptada para la Gestión de información de entes territoriales.
+          
+          Si necesita soporte o mas información acerca de las funcionalidades o adaptar la plataforma para fines particulares, por favor contáctenos:
+          
+             gerencia@prodinser.com
+             Cel 3013670062
+          Gracias por confiar en Ceoclick Pro
+          
         projects:
           demo-project:
             name: Demo project

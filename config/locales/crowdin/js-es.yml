@@ -181,7 +181,7 @@ es:
             label_maximum_users: "Máximo de usuarios activos"
             label_starts_at: "Empieza el"
             label_expires_at: "Caduca el"
-            receive_newsletter: Quiero recibir el <a target="_blank" href="%{link}">boletín</a> de OpenProject.
+            receive_newsletter: Quiero recibir el <a target="_blank" href="%{link}">boletín</a> de CeoClick Project.
             taken_domain: Solo puede existir una prueba activa por dominio.
             taken_email: Cada usuario solo puede crear una prueba.
           email_not_received: "¿No ha recibido el correo electrónico? Para volver a enviarlo, use el enlace de la derecha."
@@ -195,7 +195,7 @@ es:
           status_confirmed: "confirmado"
           status_waiting: "correo electrónico enviado: esperando confirmación"
           test_ee: "Pruebe Enterprise Edition de forma gratuita durante 14 días"
-          quick_overview: "Obtenga un resumen rápido sobre la gestión de proyectos y la colaboración en equipo con OpenProject Enterprise Edition."
+          quick_overview: "Obtenga un resumen rápido sobre la gestión de proyectos y la colaboración en equipo con CeoClick Project Enterprise Edition."
         upsale:
           become_hero: "¡Conviértete en héroe!"
           benefits:
@@ -207,14 +207,14 @@ es:
             premium_features: "Características premium"
             premium_features_text: "Paneles ágiles, tema y logotipo personalizados, gráficos, flujos de trabajo inteligentes con acciones personalizadas, búsqueda de texto completo en archivos adjuntos de paquetes de trabajo y campos personalizados de selección múltiple."
             professional_support: "Soporte profesional"
-            professional_support_text: "Obtenga ayuda rápida y de confianza de nuestros agentes de asistencia con conocimientos especializados sobre cómo ejecutar OpenProject en entornos empresariales críticos."
+            professional_support_text: "Obtenga ayuda rápida y de confianza de nuestros agentes de asistencia con conocimientos especializados sobre cómo ejecutar CeoClick Project en entornos empresariales críticos."
           button_start_trial: "Iniciar prueba gratuita"
           button_book_now: "Reservar ahora"
           confidence: >
             Ofrecemos la confianza de un software de gestión de proyectos de categoría empresarial probado y con asistencia: de código abierto y mente abierta.
           link_quote: "Solicitar presupuesto"
           text: >
-            OpenProject Enterprise Edition se basa en la versión de la comunidad (Community Edition). Incluye características premium y asistencia profesional dirigida principalmente a organizaciones con más de 10 usuarios que gestionen proyectos empresariales críticos con OpenProject.
+            CeoClick Project Enterprise Edition se basa en la versión de la comunidad (Community Edition). Incluye características premium y asistencia profesional dirigida principalmente a organizaciones con más de 10 usuarios que gestionen proyectos empresariales críticos con CeoClick Project.
           unlimited: "Ilimitado"
           you_contribute: "Los desarrolladores también tienen que pagar sus facturas. Con Enterprise Edition, contribuirá en gran medida al esfuerzo de esta comunidad de código abierto."
     custom_actions:
@@ -264,13 +264,13 @@ es:
           text_new_features: "Obtenga información sobre nuevas características y actualizaciones de productos."
           learn_about: "Más información sobre las nuevas características"
           standard:
-            learn_about_link: https://www.openproject.org/openproject-10-5
+            learn_about_link: https://ceoclick.pro
             current_new_feature_html: >
               The release contains various new features and improvements: <br><br> <ul> <li><b>Action board for assignees</b>: create action boards that will automatically update the assignee when moving cards across lists.</li> <li>Sort versions by name not by dates which makes it much easier to select a version from the list.</li> <li><b>Remove 24-hour restriction</b> for time tracking.</li> <li>Show news summary on project overview widget.</li> <li>Various bug fixes and <b>usability improvements</b>.</li> </ul>
           bim:
-            learn_about_link: https://www.openproject.org/openproject-bim-10-5
+            learn_about_link: https://ceoclick.pro
             current_new_feature_html: >
-              OpenProject 10.5 ahora es compatible con el <b>formato de colaboración BIM</b> (BCF): el estándar de seguimiento de incidencias sin resolver para modelos BIM.<br><br> <ul> <li>Cree y gestione fácilmente <b>incidencias de BIM</b> (como conflictos, solicitudes y preguntas) en el modelo IFC 3D interactivo y <b>compártalas con el equipo del proyecto</b>.</li> <li>Integre OpenProject con su software de BIM favorito mediante la avanzada <a target="_blank" href="%{bcf_api_link}">API de REST de BCF</a>.</li> <li>Importe y exporte archivos XML de BCF.</li> </ul>
+              CeoClick Project  es compatible con el <b>formato de colaboración BIM</b> (BCF): el estándar de seguimiento de incidencias sin resolver para modelos BIM.<br><br> <ul> <li>Cree y gestione fácilmente <b>incidencias de BIM</b> (como conflictos, solicitudes y preguntas) en el modelo IFC 3D interactivo y <b>compártalas con el equipo del proyecto</b>.</li> <li>Integre CeoClick Project con su software de BIM favorito mediante la avanzada <a target="_blank" href="%{bcf_api_link}">API de REST de BCF</a>.</li> <li>Importe y exporte archivos XML de BCF.</li> </ul>
     label_activate: "Activar"
     label_add_column_after: "Añadir columna a la derecha"
     label_add_column_before: "Añadir columna a la izquierda"
@@ -452,7 +452,7 @@ es:
         next: 'Siguiente'
         got_it: 'Entendido'
       steps:
-        help_menu: 'En el menú <b>Ayuda</b>, encontrará una guía del usuario y recursos de ayuda adicionales. <br> ¡Disfrute de su trabajo con OpenProject!'
+        help_menu: 'En el menú <b>Ayuda</b>, encontrará una guía del usuario y recursos de ayuda adicionales. <br> ¡Disfrute de su trabajo con CeoClick Project!'
         members: 'Invite a nuevos <b>Miembros</b> a unirse al proyecto.'
         project_selection: 'Por favor, haga clic en uno de los proyectos con datos de demostración útiles para empezar. <br> El <b>proyecto Demo </b> se adapta mejor a la gestión clásica del proyecto, mientras que el <b>} proyecto Scrum </b> es mejor para la gestión del proyecto Agile.'
         sidebar_arrow: "Con la flecha, puede volver al <b>Menú principal</b> del proyecto."

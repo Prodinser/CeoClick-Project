@@ -4,7 +4,7 @@ COPY docker/mysql-to-postgres/bin/build /tmp/build-pgloader
 RUN /tmp/build-pgloader && rm /tmp/build-pgloader
 
 FROM ruby:2.6-stretch
-MAINTAINER operations@openproject.com
+MAINTAINER tecnico@ceoclick.pro
 
 ENV NODE_VERSION "10.15.0"
 ENV BUNDLER_VERSION "2.0.2"

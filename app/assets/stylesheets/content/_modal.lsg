@@ -60,7 +60,7 @@
 ```
 <div class="op-modal--modal-container -highlight">
   <div class="op-modal--modal-header">
-    <h2>Welcome to OpenProject</h2>
+    <h2>Bienvenidos a CeoClick Project</h2>
     <a class="op-modal--modal-close-button" title="Close popup">
       <i class="icon-close"></i>
     </a>

@@ -30,7 +30,7 @@
 module OpenProject::CustomStyles
   class Design
     DEFAULTS = {
-      'primary-color'                                        => "#1A67A3",
+      'primary-color'                                        => "#210089",
       'primary-color-dark'                                   => "#175A8E",
       'alternative-color'                                    => "#35C53F",
       'body-font-family'                                     => "'Lato', 'Lucida Grande', Helvetica, Arial, sans-serif",
@@ -60,7 +60,7 @@ module OpenProject::CustomStyles
       'list-nested-margin'                                   => "30px",
       'header-height'                                        => "55px",
       'header-height-mobile'                                 => "55px",
-      'header-bg-color'                                      => "#1A67A3",
+      'header-bg-color'                                      => "#210089",
       'header-home-link-bg'                                  => '#{image-url("logo_openproject_white_big.png") no-repeat 20px 0}',
       'header-border-bottom-color'                           => "$primary-color",
       'header-border-bottom-width'                           => "0",

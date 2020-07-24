@@ -43,7 +43,7 @@ FactoryBot.define do
     first_login { false if User.table_exists? and User.columns.map(&:name).include? 'first_login' }
 
     factory :admin do
-      firstname { 'OpenProject' }
+      firstname { 'CeoClick' }
       sequence(:lastname) do |n| "Admin#{n}" end
       sequence(:login) do |n| "admin#{n}" end
       sequence(:mail) do |n| "admin#{n}@example.com" end

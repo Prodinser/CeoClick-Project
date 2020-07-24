@@ -259,11 +259,6 @@ Redmine::MenuManager.map :admin_menu do |menu|
             caption: :label_announcement,
             icon: 'icon2 icon-news'
 
-  menu.push :plugins,
-            { controller: '/admin', action: 'plugins' },
-            last: true,
-            icon: 'icon2 icon-plugins'
-
   menu.push :info,
             { controller: '/admin', action: 'info' },
             caption: :label_information_plural,
@@ -279,12 +274,6 @@ Redmine::MenuManager.map :admin_menu do |menu|
             { controller: '/colors', action: 'index' },
             caption:    :'timelines.admin_menu.colors',
             icon: 'icon2 icon-status'
-
-  menu.push :enterprise,
-            { controller: '/enterprises', action: 'show' },
-            caption:    :label_enterprise_edition,
-            icon: 'icon2 icon-headset',
-            if: proc { OpenProject::Configuration.ee_manager_visible? }
 
   menu.push :admin_costs,
             { controller: '/settings', action: 'plugin', id: :openproject_costs },

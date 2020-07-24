@@ -74,55 +74,55 @@ module OpenProject
         def static_links
           {
             upsale: {
-              href: 'https://www.openproject.org/enterprise-edition',
+              href: 'https://www.CeoClick.pro/enterprise-edition',
               label: 'homescreen.links.upgrade_enterprise_edition'
             },
             upsale_benefits_features: {
-              href: 'https://www.openproject.org/enterprise-edition/#premium-features',
+              href: 'https://www.CeoClick.pro/enterprise-edition/#premium-features',
               label: 'noscript_learn_more'
             },
             upsale_benefits_installation: {
-              href: 'https://www.openproject.org/enterprise-edition/#installation',
+              href: 'https://www.CeoClick.pro/enterprise-edition/#installation',
               label: 'noscript_learn_more'
             },
             upsale_benefits_security: {
-              href: 'https://www.openproject.org/enterprise-edition/#security-features',
+              href: 'https://www.CeoClick.pro/enterprise-edition/#security-features',
               label: 'noscript_learn_more'
             },
             upsale_benefits_support: {
-              href: 'https://www.openproject.org/enterprise-edition/#professional-support',
+              href: 'https://www.CeoClick.pro/enterprise-edition/#professional-support',
               label: 'noscript_learn_more'
             },
             upsale_get_quote: {
-              href: 'https://www.openproject.org/upgrade-enterprise-edition/',
+              href: 'https://www.CeoClick.pro/upgrade-enterprise-edition/',
               label: 'admin.enterprise.get_quote'
             },
             user_guides: {
-              href: 'https://docs.openproject.org/user-guide/',
+              href: 'https://docs.CeoClick.pro/user-guide/',
               label: 'homescreen.links.user_guides'
             },
             upgrade_guides: {
-              href: 'https://www.openproject.org/operations/upgrading/',
+              href: 'https://www.CeoClick.pro/operations/upgrading/',
               label: :label_upgrade_guides
             },
             postgres_migration: {
-              href: 'https://www.openproject.org/operations/migration-guides/migrating-packaged-openproject-database-postgresql/',
+              href: 'https://www.CeoClick.pro/operations/migration-guides/migrating-packaged-openproject-database-postgresql/',
               label: :'homescreen.links.postgres_migration'
             },
             configuration_guide: {
-              href: 'https://www.openproject.org/operations/configuration/',
+              href: 'https://www.CeoClick.pro/operations/configuration/',
               label: 'links.configuration_guide'
             },
             contact: {
-              href: 'https://www.openproject.org/contact-us/',
+              href: 'https://www.CeoClick.pro/contact-us/',
               label: 'links.get_in_touch'
             },
             glossary: {
-              href: 'https://www.openproject.org/help/glossary/',
+              href: 'https://www.CeoClick.pro/help/glossary/',
               label: 'homescreen.links.glossary'
             },
             shortcuts: {
-              href: 'https://docs.openproject.org/user-guide/keyboard-shortcuts-access-keys/',
+              href: 'https://docs.CeoClick.pro/user-guide/keyboard-shortcuts-access-keys/',
               label: 'homescreen.links.shortcuts'
             },
             forums: {
@@ -130,35 +130,35 @@ module OpenProject
               label: 'homescreen.links.forums'
             },
             professional_support: {
-              href: 'https://www.openproject.org/pricing/#support',
+              href: 'https://www.CeoClick.pro/pricing/#support',
               label: :label_professional_support
             },
             website: {
-              href: 'https://www.openproject.org',
+              href: 'https://www.CeoClick.pro',
               label: 'label_openproject_website'
             },
             newsletter: {
-              href: 'https://www.openproject.org/newsletter',
+              href: 'https://www.CeoClick.pro/newsletter',
               label: 'homescreen.links.newsletter'
             },
             blog: {
-              href: 'https://www.openproject.org/blog',
+              href: 'https://www.CeoClick.pro/blog',
               label: 'homescreen.links.blog'
             },
             release_notes: {
-              href: 'https://docs.openproject.org/release-notes/',
+              href: 'https://docs.CeoClick.pro/release-notes/',
               label: :label_release_notes
             },
             data_privacy: {
-              href: 'https://www.openproject.org/data-privacy-and-security/',
+              href: 'https://www.CeoClick.pro/data-privacy-and-security/',
               label: :label_privacy_policy
             },
             report_bug: {
-              href: 'https://docs.openproject.org/development/report-a-bug/',
+              href: 'https://docs.CeoClick.pro/development/report-a-bug/',
               label: :label_report_bug
             },
             roadmap: {
-              href: 'https://community.openproject.org/projects/openproject/roadmap',
+              href: 'https://community.CeoClick.pro/projects/openproject/roadmap',
               label: :label_development_roadmap
             },
             crowdin: {
@@ -166,11 +166,11 @@ module OpenProject
               label: :label_add_edit_translations
             },
             api_docs: {
-              href: 'https://docs.openproject.org/api',
+              href: 'https://docs.CeoClick.pro/api',
               label: :label_api_documentation
             },
             text_formatting: {
-              href: 'https://docs.openproject.org/user-guide/wiki/',
+              href: 'https://docs.CeoClick.pro/user-guide/wiki/',
               label: :setting_text_formatting
             },
             oauth_authorization_code_flow: {
@@ -185,7 +185,7 @@ module OpenProject
               href: 'https://www.rubydoc.info/gems/net-ldap/Net/LDAP#constructor_details',
             },
             security_badge_documentation: {
-              href: 'https://docs.openproject.org/system-admin-guide/information/#security-badge'
+              href: 'https://docs.CeoClick.pro/system-admin-guide/information/#security-badge'
             },
             chargebee: {
               href: 'https://js.chargebee.com/v2/chargebee.js',
