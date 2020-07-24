@@ -162,7 +162,7 @@ gem 'i18n-js', '~> 3.6.0'
 gem 'rails-i18n', '~> 6.0.0'
 gem 'sassc-rails', '~> 2.1.2'
 gem 'sprockets', '~> 3.7.0'
-gem 'openproject-job_status', '~> 1.0.0'
+gem 'openproject-job_status', '>= 0'
 
 # required by Procfile, for deployment on heroku or packaging with packager.io.
 # also, better than thin since we can control worker concurrency.
