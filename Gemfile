@@ -160,7 +160,7 @@ gem 'autoprefixer-rails', '~> 9.7.4'
 gem 'bourbon', '~> 6.0.0'
 gem 'i18n-js', '~> 3.6.0'
 gem 'rails-i18n', '~> 6.0.0'
-gem 'sassc-rails', '~> 2.1.0'
+gem 'sassc-rails', '~> 2.1.2'
 gem 'sprockets', '~> 3.7.0'
 
 # required by Procfile, for deployment on heroku or packaging with packager.io.
@@ -178,7 +178,7 @@ gem 'aws-sdk-core', '~> 3.91.0'
 # File upload via fog + screenshots on travis
 gem 'aws-sdk-s3', '~> 1.61.0'
 
-gem 'openproject-token', '~> 1.0.2'
+gem 'openproject-token', '~> 2.1.2'
 
 gem 'plaintext', '~> 0.3.2'
 
