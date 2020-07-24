@@ -34,7 +34,7 @@ gem 'actionpack-xml_parser', '~> 2.0.0'
 gem 'activemodel-serializers-xml', '~> 1.0.1'
 gem 'activerecord-import', '~> 1.0.2'
 gem 'activerecord-session_store', '~> 1.1.0'
-gem 'rails', '~> 6.0.2'
+gem 'rails', '~> 6.3.1'
 gem 'responders', '~> 3.0'
 
 gem 'rdoc', '>= 2.4.2'
@@ -85,7 +85,7 @@ gem 'escape_utils', '~> 1.0'
 # Syntax highlighting used in html-pipeline with rouge
 gem 'rouge', '~> 3.17.0'
 # HTML sanitization used for html-pipeline
-gem 'sanitize', '~> 5.1.0'
+gem 'sanitize', '~> 5.2.1'
 # HTML autolinking for mails and urls (replaces autolink)
 gem 'rinku', '~> 2.0.4'
 # Version parsing with semver
@@ -167,7 +167,7 @@ gem 'sprockets', '~> 3.7.0'
 # also, better than thin since we can control worker concurrency.
 gem 'unicorn'
 
-gem 'puma', '~> 4.3.1' # used for development and optionally for production
+gem 'puma', '~> 4.3.5' # used for development and optionally for production
 
 gem 'nokogiri', '~> 1.10.8'
 

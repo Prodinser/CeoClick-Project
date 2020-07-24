@@ -65,7 +65,11 @@ COPY modules ./modules
 # OpenProject::Version is required by module versions in gemspecs
 RUN mkdir -p lib/open_project
 COPY lib/open_project/version.rb ./lib/open_project/
-RUN bundle install --deployment --path vendor/bundle --no-cache \
+RUN bundle config --local deployment true
+RUN bundle config --local path vendor/bundle
+RUN bundle config --local no-cache true
+RUN check
+RUN bundle install \
   --with="docker opf_plugins" --without="test development" --jobs=8 --retry=3 && \
   rm -rf vendor/bundle/ruby/*/cache && rm -rf vendor/bundle/ruby/*/gems/*/spec && rm -rf vendor/bundle/ruby/*/gems/*/test
 
