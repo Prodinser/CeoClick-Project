@@ -115,6 +115,11 @@ PATH
     grids (1.0.0)
 
 PATH
+  remote: modules/job_status
+  specs:
+    openproject-job_status (1.0.0)
+
+PATH
   remote: modules/ldap_groups
   specs:
     openproject-ldap_groups (1.0.0)
@@ -430,7 +435,7 @@ GEM
       uber (< 0.2.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
-    doorkeeper (5.3.2)
+    doorkeeper (5.3.1)
       railties (>= 5)
     dry-configurable (0.11.4)
       concurrent-ruby (~> 1.0)
@@ -725,7 +730,7 @@ GEM
     rack_session_access (0.2.0)
       builder (>= 2.0.0)
       rack (>= 1.0.0)
-    rails (6.3.1)
+    rails (6.0.3.1)
       actioncable (= 6.0.3.1)
       actionmailbox (= 6.0.3.1)
       actionmailer (= 6.0.3.1)
@@ -859,7 +864,7 @@ GEM
       nokogumbo (~> 2.0)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sassc-rails (~> 2.1.2)
+    sassc-rails (2.1.2)
       railties (>= 4.0.0)
       sassc (>= 2.0)
       sprockets (> 3.0)
@@ -974,13 +979,11 @@ DEPENDENCIES
   addressable (~> 2.7.0)
   airbrake (~> 9.4.3)
   auto_strip_attributes (~> 2.5)
-  autoprefixer-rails (~> 9.7.4)
   awesome_nested_set (~> 3.2.0)
   aws-sdk-core (~> 3.91.0)
   aws-sdk-s3 (~> 1.61.0)
   bcrypt (~> 3.1.6)
   bootsnap (~> 1.4.5)
-  bourbon (~> 6.0.0)
   brakeman (~> 4.8.0)
   browser (~> 2.6.1)
   capybara (~> 3.32.0)
@@ -1002,7 +1005,7 @@ DEPENDENCIES
   deckar01-task_list (~> 2.3.1)
   delayed_cron_job (~> 0.7.2)
   delayed_job_active_record (~> 4.1.4)
-  doorkeeper (~> 5.3.2)
+  doorkeeper (~> 5.3.1)
   equivalent-xml (~> 0.6)
   escape_utils (~> 1.0)
   factory_bot (~> 5.1.1)
@@ -1047,13 +1050,14 @@ DEPENDENCIES
   openproject-documents!
   openproject-github_integration!
   openproject-global_roles!
+  openproject-job_status!
   openproject-ldap_groups!
   openproject-meeting!
   openproject-openid_connect!
   openproject-pdf_export!
   openproject-recaptcha!
   openproject-reporting!
-  openproject-token (~> 2.1.2)
+  openproject-token (~> 2.1.1)
   openproject-translations!
   openproject-two_factor_authentication!
   openproject-webhooks!
@@ -1077,7 +1081,7 @@ DEPENDENCIES
   rack-protection (~> 2.0.8)
   rack-test (~> 1.1.0)
   rack_session_access
-  rails (~> 6.3.1)
+  rails (~> 6.0.3.1)
   rails-controller-testing (~> 1.0.2)
   rails-i18n (~> 6.0.0)
   rails_12factor
@@ -1102,7 +1106,7 @@ DEPENDENCIES
   ruby-progressbar (~> 1.10.0)
   rubytree (~> 1.0.0)
   sanitize (~> 5.2.1)
-  sassc-rails (~> 2.1.2)
+  sassc-rails
   secure_headers (~> 6.3.0)
   selenium-webdriver (~> 3.14)
   semantic (~> 1.6.1)

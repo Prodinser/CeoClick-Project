@@ -34,7 +34,7 @@ gem 'actionpack-xml_parser', '~> 2.0.0'
 gem 'activemodel-serializers-xml', '~> 1.0.1'
 gem 'activerecord-import', '~> 1.0.2'
 gem 'activerecord-session_store', '~> 1.1.0'
-gem 'rails', '~> 6.3.1'
+gem 'rails', '~> 6.0.3.1'
 gem 'responders', '~> 3.0'
 
 gem 'rdoc', '>= 2.4.2'
@@ -42,7 +42,7 @@ gem 'rdoc', '>= 2.4.2'
 # Maintain our own omniauth due to relative URL root issues
 # see upstream PR: https://github.com/omniauth/omniauth/pull/903
 gem 'omniauth', git: 'https://github.com/opf/omniauth', ref: 'fe862f986b2e846e291784d2caa3d90a658c67f0'
-gem 'doorkeeper', '~> 5.3.2'
+gem 'doorkeeper', '~> 5.3.1'
 gem 'request_store', '~> 1.5.0'
 
 gem 'warden', '~> 1.2'
@@ -156,11 +156,8 @@ group :production do
   gem 'unicorn-worker-killer', require: false
 end
 
-gem 'autoprefixer-rails', '~> 9.7.4'
-gem 'bourbon', '~> 6.0.0'
 gem 'i18n-js', '~> 3.6.0'
 gem 'rails-i18n', '~> 6.0.0'
-gem 'sassc-rails', '~> 2.1.2'
 gem 'sprockets', '~> 3.7.0'
 
 # required by Procfile, for deployment on heroku or packaging with packager.io.
@@ -178,7 +175,7 @@ gem 'aws-sdk-core', '~> 3.91.0'
 # File upload via fog + screenshots on travis
 gem 'aws-sdk-s3', '~> 1.61.0'
 
-gem 'openproject-token', '~> 2.1.2'
+gem 'openproject-token', '~> 2.1.1'
 
 gem 'plaintext', '~> 0.3.2'
 
@@ -245,12 +242,15 @@ group :development do
 
   gem 'faker'
   gem 'letter_opener'
-  gem 'livingstyleguide', '~> 2.1.0'
 
   gem 'spring'
   gem 'spring-commands-rspec'
 
   gem 'rubocop'
+
+  # Gems for living styleguide
+  gem 'sassc-rails'
+  gem 'livingstyleguide', '~> 2.1.0'
 end
 
 group :development, :test do
