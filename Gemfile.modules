@@ -21,7 +21,6 @@ group :opf_plugins do
     $:.push File.expand_path("../lib", __FILE__)
 
 	gem 'openproject-global_roles',              path: 'modules/global_roles'
-	gem 'openproject-job_status',                path: 'modules/job_status'
 	gem 'openproject-auth_plugins',              path: 'modules/auth_plugins'
 	gem 'openproject-auth_saml',                 path: 'modules/auth_saml'
 	gem 'openproject-openid_connect',            path: 'modules/openid_connect'
@@ -39,7 +38,6 @@ group :opf_plugins do
 	gem 'openproject-github_integration',        path: 'modules/github_integration'
 	gem 'openproject-ldap_groups',               path: 'modules/ldap_groups'
 	gem 'openproject-recaptcha',                 path: 'modules/recaptcha'
-
 	gem 'grids',                                 path: 'modules/grids'
 	gem 'my_page',                               path: 'modules/my_page'
 	gem 'dashboards',                            path: 'modules/dashboards'
